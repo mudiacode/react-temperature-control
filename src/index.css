@@ -77,7 +77,7 @@ h1 {
 }
 .decrement {
   background-color: grey;
-  border: 2px solid white;
+  border: 0.3rem solid white;
   border-radius: 50%;
   flex: 0 1 auto;
   align-self: auto;
@@ -95,7 +95,7 @@ h1 {
 }
 .increment {
   background-color: grey;
-  border: 2px solid white;
+  border: 0.3rem solid white;
   border-radius: 50%;
   flex: 0 1 auto;
   align-self: auto;
