@@ -56,7 +56,7 @@ h1 {
 }
 
 .count {
-  border: 2px solid white;
+  border: 0.2rem solid white;
   border-radius: 50%;
   flex: 0 1 auto;
   align-self: auto;
@@ -66,8 +66,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  color: #16171e;
+  background: transparent;
+  color: white;
 
   font-size: 3rem;
 
@@ -77,7 +77,7 @@ h1 {
 }
 .decrement {
   background-color: grey;
-  border: 0.3rem solid white;
+  border: 0.2rem solid white;
   border-radius: 50%;
   flex: 0 1 auto;
   align-self: auto;
@@ -95,7 +95,7 @@ h1 {
 }
 .increment {
   background-color: grey;
-  border: 0.3rem solid white;
+  border: 0.2rem solid white;
   border-radius: 50%;
   flex: 0 1 auto;
   align-self: auto;
@@ -124,7 +124,7 @@ h1 {
 
 .reset-button {
   padding: 1rem 2rem;
-  border: 0.3rem solid white;
+  border: 0.2rem solid white;
   border-radius: 2rem;
   background-color: transparent;
   font-size: 1rem;
@@ -149,4 +149,12 @@ h1 {
 
 .count {
   margin: auto;
+}
+
+.cold {
+  background: rgb(72, 193, 240);
+}
+
+.hot {
+  background: rgb(234, 71, 71);
 }

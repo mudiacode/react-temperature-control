@@ -24,9 +24,12 @@ function Header() {
 }
 
 function Temperature() {
+  const [tempColor, setTempColor] = useState("cold");
+  const [count, setCount] = useState(10);
 
-
-  let [count, setCount] = useState(0);
+  function hotTemp () {
+    
+  }
 
   function decrement() {
     setCount((prevCount) => prevCount - 1);
@@ -39,12 +42,12 @@ function Temperature() {
   function reset() {
     setCount((prevCount) => (prevCount = 0));
   }
-  const degrees = `${count}°C`
+  const degrees = `${count}°C`;
   return (
     <div>
       <div class="container">
         <div className="count-container">
-          <div class="count">{degrees}</div>
+          <div class={`count ${tempColor}`}>{degrees}</div>
         </div>
 
         <div className="control-container">
